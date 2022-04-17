@@ -1,0 +1,170 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .custom-slogan{
+        font-size:22px;
+    }
+    .big-row{
+        height: 90vh;
+    }
+    .main-row{
+        position: relative;
+        background-color: white ;
+        width:50%;
+        margin: auto;
+        margin-top: -15%;
+
+    }
+    .bg-img{
+        background-image: url('/img/bg-img2.jpeg');
+        height: 75vh;
+        width: 100%;
+    }
+    .card-title{
+        font-size: 1.7rem;
+    }
+    .mission-items li{
+        margin-top: 7%;
+    }
+    .about-us-title{
+        font-size: 1.7rem;
+    }
+    .about-us-img{
+        width:30%;
+        height: 140px;
+        border-radius: 50%;
+    }
+    .about-us{
+        flex-direction: row;
+        width:30rem;
+        height: 20%;
+        border:0;
+    }
+    .about-us-name{
+        font-size: 1.2rem;
+    }
+    
+    #mission{
+        margin-top: -3%;
+    }
+</style>
+<div class="row big-row">
+    <div class="bg-img"></div>
+    <div class="row align-items-center main-row" style="height:160px">
+        <div class = "row text-center" >
+            <h1 class="display-4">Welcome to SciMet</h1>
+        </div>
+        <div class="row text-center custom-slogan">
+            <p>Kết Nối và Phát Triển</p>
+        </div>
+    </div>
+</div>
+<div class="row" id="mission" style="height:40px"></div>
+<div class="row justify-content-evenly">
+    <div class="card" style="width: 25rem;">
+        <div class="card-body">
+            <h5 class="card-title">Sứ Mệnh</h5>
+            <p class="card-text">
+                <ul class="mission-items">
+                    <li>Xây dựng hệ thống kết nối những cá nhân, tập thể có nhu cầu trao đổi kiến thức khoa học với các nhà khoa học trong ngành</li>
+                    <li>Thúc đẩy định hướng nghề nghiệp các ngành STEM tại Việt Nam</li>
+                    <li>Phát triển truyền thông khoa học tại Việt Nam, để kiến thức khoa học trở nên gần gũi và dễ hiểu với đại chúng</li>
+                    <li>Thúc đẩy định hướng nghề nghiệp các ngành STEM tại Việt Nam</li>
+                    <li>Nuôi dưỡng và định hướng đam mê khoa học của thế hệ trẻ Việt Nam</li>
+                    <li>Tạo cơ sở dữ liệu những nhà khoa học Việt Nam trên toàn thế giới với đam mê và nhu cầu chia sẻ kiến thức khoa học tới công chúng, đặc biệt là giới trẻ Việt Nam</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="card" style="width: 25rem;">
+        <div class="card-body">
+            <h5 class="card-title">Tầm Nhìn</h5>
+            <p class="card-text">
+                <ul class="mission-items">
+                    <li>Xây dựng một công cụ hỗ trợ nhà trường và phụ huynh trong giáo dục STEM</li>
+                    <li>Phát triển truyền thông khoa học: đưa kiến thức khoa học trở nên dễ hiểu và gần gũi hơn tới công chúng</li>
+                    <li>Thúc đẩy một thế hệ trẻ Việt Nam đam mê nghiên cứu khoa học và được định hướng từ sớm</li>
+                    <li>Xây dựng một mạng lưới kết nối các nhà khoa học Việt Nam trên toàn thế giới</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-center display-5 p-5" id="about-us-id" style="margin-top:5%">
+    Thành Viên Ban Điều Hành
+</div>
+<div class="row justify-content-center" style="margin-top:0.2%">
+    <div class="col-5 about-us-title text-center">Ban Thành Lập</div>
+    <div class="col-5 about-us-title text-center">Ban Điều Hành</div>
+</div>
+<div class="row justify-content-evenly about-us-row" style="margin-top:3%">
+    <div class="card about-us">
+        <img class="card-img-top about-us-img" src="/img/ngan.JPG" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title about-us-name">Phạm Thị Hồng Giang</h5>
+            <p class="card-text">Trợ lý nghiên cứu tại trường Y đại học Yale, Mỹ</p>
+        </div>
+    </div>
+    <div class="card about-us">
+        <img class="card-img-top about-us-img" src="/img/na.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title about-us-name">Nguyen Trang Phuong Minh</h5>
+            <p class="card-text">Học sinh trường THPT chuyên Lê Hồng Phong, chuyên Sinh</p>
+        </div>
+    </div>
+    
+</div>
+<div class="row justify-content-evenly about-us-row" style="margin-top:3%">
+    <div class="card about-us">
+        <img class="card-img-top about-us-img" src="/img/ngan.JPG " alt="Card image cap" style="width:50%">
+        <div class="card-body">
+            <h5 class="card-title about-us-name">Vũ Khánh Ngân</h5>
+            <p class="card-text">Trợ lý nghiện cứu tại trường Y đại học California tại San Francisco (UCSF), Mỹ</p>
+        </div>
+    </div>
+    <div class="card about-us">
+        <img class="card-img-top about-us-img" src="/img/duy.JPG" alt="Card image cap" style="width:32%">
+        <div class="card-body">
+            <h5 class="card-title about-us-name">Nguyễn Đức Duy</h5>
+            <p class="card-text">Trợ lý nghiên cứu tại trường Y đại học Cornell, Mỹ</p>
+        </div>
+    </div>
+    
+</div>
+
+<div class="row justify-content-center about-us-title" style="margin-top:4%">
+    Ban Thiết Kế và Truyền Thông
+</div>
+
+<div class="row justify-content-evenly about-us-row" style="margin-top:3%">
+    <div class="card about-us">
+        <img class="card-img-top about-us-img" src="/img/ngan.JPG" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title about-us-name">Đỗ Ngọc Nam Phương</h5>
+            <p class="card-text">Học sinh trường THPT chuyên Lê Hồ ng Phong, Chuyên Sinh</p>
+        </div>
+    </div>
+    <div class="card about-us">
+        <img class="card-img-top about-us-img" src="/img/na.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title about-us-name">Nguyễn Minh Thi</h5>
+            <p class="card-text">Sinh viên trường Đại học FPT ngành thiết kế mỹ thuật số</p>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-evenly about-us-row" style="margin-top:3%">
+    <div class="card about-us">
+        <img class="card-img-top about-us-img" src="/img/ngan.JPG" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title about-us-name">Nguyễn Hà Phương</h5>
+            <p class="card-text">Học sinh trường trung học Vinschool, Hà Nội</p>
+        </div>
+    </div>
+    <div class="card about-us">
+    </div>
+    
+</div>
