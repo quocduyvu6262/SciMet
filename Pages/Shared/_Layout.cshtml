@@ -7,29 +7,32 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SciMet.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@650&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">SciMet</a>
+                <a class="navbar-brand header" asp-area="" asp-page="/Index">SciMet</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navbar-items">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#mission">Nhiệm Vụ</a>
+                            <a class="nav-link text-dark" href="/Index/#mission">Nhiệm Vụ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#about-us-id">Giới Thiệu</a>
+                            <a class="nav-link text-dark"  href="/Index#about-us-id">Giới Thiệu</a>
                         </li>
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Program/Program">Chương Trình</a>
+                        </li> *@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Chương Trình</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Scientists/Index">Nhà Khoa Học</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Scientists/Index">Chương Trình</a>
                         </li>
                         <li class="nav-item">
                         </li>
@@ -38,15 +41,12 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    
+    <div class="my-container">@RenderBody()</div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted footer">
         <div class="container">
-            &copy; 2022 - SciMet - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2022 - SciMet - All Rights Reserved
         </div>
     </footer>
 

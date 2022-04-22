@@ -4,5 +4,7 @@
     "azureFunctions.projectRuntime": "~4",
     "debug.internalConsoleOptions": "neverOpen",
     "azureFunctions.preDeployTask": "publish (functions)",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/98d3f3a7-8cc5-4792-bbd5-1f994a729317/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/SciMet",
+    "appService.deploySubpath": "publish"
 }

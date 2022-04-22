@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L4W72J6JGCpLZ9GVcDrwyPxBHFMmGZQq2gaPNW5qmG0=",
+  "Hash": "hLAWrJ1E18XxuhhrbglZbEfyKOWGTYnOu4496UKIM+Y=",
   "Source": "SciMet",
   "BasePath": "_content/SciMet",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/duyvuquoc/Documents/SciMet/obj/Release/net6.0/scopedcss/projectbundle/SciMet.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/css/home_page.css",
+      "SourceId": "SciMet",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duyvuquoc/Documents/SciMet/wwwroot/",
+      "BasePath": "_content/SciMet",
+      "RelativePath": "css/home_page.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/home_page.css"
     },
     {
       "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/css/site.css",
@@ -202,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/ngan.JPG"
+    },
+    {
+      "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/img/program.jpeg",
+      "SourceId": "SciMet",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duyvuquoc/Documents/SciMet/wwwroot/",
+      "BasePath": "_content/SciMet",
+      "RelativePath": "img/program.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/program.jpeg"
     },
     {
       "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/js/site.js",

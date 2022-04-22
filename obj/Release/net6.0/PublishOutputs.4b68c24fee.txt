@@ -1,6 +1,8 @@
 /Users/duyvuquoc/Documents/SciMet/publish/SciMet
 /Users/duyvuquoc/Documents/SciMet/publish/appsettings.Development.json
 /Users/duyvuquoc/Documents/SciMet/publish/appsettings.json
+/Users/duyvuquoc/Documents/SciMet/publish/host.json
+/Users/duyvuquoc/Documents/SciMet/publish/local.settings.json
 /Users/duyvuquoc/Documents/SciMet/publish/SciMet.dll
 /Users/duyvuquoc/Documents/SciMet/publish/SciMet.runtimeconfig.json
 /Users/duyvuquoc/Documents/SciMet/publish/SciMet.pdb

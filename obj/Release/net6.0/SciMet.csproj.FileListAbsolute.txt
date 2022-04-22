@@ -282,3 +282,5 @@
 /Users/duyvuquoc/Documents/SciMet/obj/Release/net6.0/SciMet.pdb
 /Users/duyvuquoc/Documents/SciMet/obj/Release/net6.0/SciMet.genruntimeconfig.cache
 /Users/duyvuquoc/Documents/SciMet/obj/Release/net6.0/ref/SciMet.dll
+/Users/duyvuquoc/Documents/SciMet/bin/Release/net6.0/host.json
+/Users/duyvuquoc/Documents/SciMet/bin/Release/net6.0/local.settings.json

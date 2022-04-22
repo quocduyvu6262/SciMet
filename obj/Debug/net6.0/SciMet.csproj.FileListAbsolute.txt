@@ -3,15 +3,10 @@
 /Users/duyvuquoc/Documents/SciMet/obj/Debug/net6.0/SciMet.AssemblyInfoInputs.cache
 /Users/duyvuquoc/Documents/SciMet/obj/Debug/net6.0/SciMet.AssemblyInfo.cs
 /Users/duyvuquoc/Documents/SciMet/obj/Debug/net6.0/SciMet.csproj.CoreCompileInputs.cache
-/Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/publish/web.config
 /Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/appsettings.Development.json
 /Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/appsettings.json
 /Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/host.json
 /Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/local.settings.json
-/Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/publish/appsettings.Development.json
-/Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/publish/appsettings.json
-/Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/publish/SciMet.deps.json
-/Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/publish/SciMet.runtimeconfig.json
 /Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/SciMet.staticwebassets.runtime.json
 /Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/SciMet
 /Users/duyvuquoc/Documents/SciMet/bin/Debug/net6.0/SciMet.deps.json
