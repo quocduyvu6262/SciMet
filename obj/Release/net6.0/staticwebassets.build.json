@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hLAWrJ1E18XxuhhrbglZbEfyKOWGTYnOu4496UKIM+Y=",
+  "Hash": "ZsRfqdARtc+SlHh8RkaAm7Jv1FWvvQFVTc60WpUncJk=",
   "Source": "SciMet",
   "BasePath": "_content/SciMet",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/ngan.JPG"
+    },
+    {
+      "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/img/program-img.jpeg",
+      "SourceId": "SciMet",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duyvuquoc/Documents/SciMet/wwwroot/",
+      "BasePath": "_content/SciMet",
+      "RelativePath": "img/program-img.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/program-img.jpeg"
     },
     {
       "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/img/program.jpeg",

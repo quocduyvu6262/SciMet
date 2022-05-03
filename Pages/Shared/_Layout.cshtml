@@ -10,49 +10,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@650&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
             <div class="container">
-                <a class="navbar-brand header" asp-area="" asp-page="/Index">SciMet</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navbar-items">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Index/#mission">Nhiệm Vụ</a>
+                <div class="navbar-header">
+                    <a class="navbar-brand" asp-area="" asp-page="/Index">SciMet</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navbar-items" id=#myNavbar>
+                    <ul class="navbar-nav x">
+                        <li class="active nav-item">
+                            <a class="nav-link text-dark" href="/Index/#mission">SỨ MỆNH & TẦM NHÌN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark"  href="/Index#about-us-id">Giới Thiệu</a>
+                            <a class="nav-link text-dark" href="/Index/#mission">THÀNH VIÊN</a>
                         </li>
-                        @* <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Program/Program">Chương Trình</a>
-                        </li> *@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Scientists/Index">Chương Trình</a>
+                            <a class="nav-link text-dark" href="/Index#about-us-id">THAM GIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Index#about-us-id">TÀI LIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Scientists/Index">NHÀ KHOA HỌC</a>
                         </li>
                         <li class="nav-item">
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> 
     </header>
     
     <div class="my-container">@RenderBody()</div>
-
-    <footer class="border-top footer text-muted footer">
-        <div class="container">
+    
+    @* <footer class="border-top footer text-muted footer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class=" text-center p-4 pb-0">
+            <a href="#" class="fa fa-facebook"></a>
+        </div>
+        <div class="container text-center p-3">
             &copy; 2022 - SciMet - All Rights Reserved
         </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    </footer> *@
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Liên Hệ</h3>
+                        <ul>
+                            <li><a href = "mailto: SciMet.organization@gmail.com">Email: SciMet.organization@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        
+                    </div>
+                    <div class="col-md-6 item text">
+                        
+                    </div>
+                    <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a></div>
+                </div>
+                <p class="copyright">&copy; 2022 - SciMet - All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

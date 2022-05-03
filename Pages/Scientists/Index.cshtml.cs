@@ -36,13 +36,18 @@ namespace SciMet.Pages.Scientists
                  select m;
             if (!string.IsNullOrEmpty(SearchName))
             {
-                scientists = scientists.Where(s => s.Name.Contains(SearchName));
+                scientists = scientists.Where(s => s.Name.ToUpper().Contains(deleteSpace(SearchName).ToUpper()));
             }
             if (!string.IsNullOrEmpty(SearchResearch))
             {
-                scientists = scientists.Where(s => s.Research.Contains(SearchResearch));
+                scientists = scientists.Where(s => s.Research.ToUpper().Contains(deleteSpace(SearchResearch).ToUpper()));
             }
             Scientist = await scientists.ToListAsync();
+        }
+
+        private string deleteSpace(string words){
+            string toReturn = String.Join(" ", words.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries));
+            return toReturn;
         }
     }
 }
