@@ -1,0 +1,60 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin-bottom: 60px;
+}
+
+.header{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.non-header{
+  font-family: Helvetica;
+}
+
+
+.my-container{
+  
+}
+
+/*-----------------------------------------Customization------------------------------------------*/
+
+/*--------footer-----------*/
+
+.footer{
+  z-index: 1;
+}
+
+/*--------Nav bar style-----------*/
+nav .container{
+  padding-top: 0.5%;
+}
+
+nav a{
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+nav .navbar-items{
+  margin-left: 1.5%;
+}
+
+/* ---------introduction style------*/
