@@ -1,0 +1,50 @@
+/*--------------------------Mission-----------------------*/
+.members{
+    position: relative;
+}
+.members .header{
+    position: relative;
+    font-size: 3rem;
+    color: var(--theme);
+}
+
+
+.members .header::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(199, 199, 199);
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 0px;
+}
+
+.members .card{
+    width: 30rem;
+}
+
+.members .card-title{
+    padding-top: 5%;
+    font-size: 1.5rem;
+    color: rgb(69, 69, 69);
+}
+
+.members .card-text{
+    color: #555555;
+}
+
+.members img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:45%;
+    height: auto;
+}
+
+#bandieuhanh{
+    background-color: #f8f8f8;
+}
+
+#bandieuhanh .card{
+    background-color: #f8f8f8;
+}

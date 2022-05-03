@@ -19,34 +19,41 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" asp-area="" asp-page="/Index">SciMet</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <a class="navbar-brand" asp-area="" asp-page="/Index">
+                        SciMet
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navbar-items" id=#myNavbar>
-                    <ul class="navbar-nav x">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navbar-items" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav flex-grow-1">
                         <li class="active nav-item">
-                            <a class="nav-link text-dark" href="/Index/#mission">SỨ MỆNH & TẦM NHÌN</a>
+                            <a class="nav-link text-dark" href="/Index#mission-id">SỨ MỆNH & TẦM NHÌN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Index/#mission">THÀNH VIÊN</a>
+                            <a class="nav-link text-dark" href="/Members/Index">THÀNH VIÊN</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                THAM GIA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="/Students/Index">Dành Cho Học Sinh</a></li>
+                                <li><a class="dropdown-item" href="#">Dành Cho Giáo Viên</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Index#about-us-id">THAM GIA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Index#about-us-id">TÀI LIỆU</a>
+                            <a class="nav-link text-dark" href="">TÀI LIỆU</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Scientists/Index">NHÀ KHOA HỌC</a>
                         </li>
-                        <li class="nav-item">
-                        </li>
                     </ul>
                 </div>
             </div>
-        </nav> 
+        </nav>
     </header>
     
     <div class="my-container">@RenderBody()</div>
@@ -76,13 +83,16 @@
                     <div class="col-md-6 item text">
                         
                     </div>
-                    <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a></div>
+                    <div class="col item social"><a href="https://www.facebook.com/SciMet-108668035124782" target="_blank"><i class="fa fa-facebook"></i></a></div>
                 </div>
                 <p class="copyright">&copy; 2022 - SciMet - All Rights Reserved</p>
             </div>
         </footer>
     </div>
-
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
