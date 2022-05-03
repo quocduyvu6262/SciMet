@@ -1,2 +1,2 @@
 # SciMet
-[link](https://scimet.azurewebsites.net/)
+[Website Demo](https://scimet.azurewebsites.net/)
