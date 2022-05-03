@@ -16318,11 +16318,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Members copy/Index.cshtml",
-      "TargetPath": "Pages\\Members copy\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Scientists/Delete.cshtml",
       "TargetPath": "Pages\\Scientists\\Delete.cshtml",
       "FileKind": "mvc"
@@ -16355,6 +16350,11 @@
     {
       "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Students/Index.cshtml",
+      "TargetPath": "Pages\\Students\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

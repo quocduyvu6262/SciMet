@@ -1,0 +1,157 @@
+.row {
+    width: 100%;
+}
+:root{
+    --theme: #264661
+}
+/*---------------Style Introduction-------------*/
+.introduction{
+    height: 100%;
+    width: 100%;
+    background-color: var(--theme);
+    /* styling welcome statement */
+    padding: 2%;
+}
+
+.introduction-content{
+    position:relative;
+}
+
+.introduction-content .header{
+    font-size: 4.7rem;
+    color: aliceblue;
+}
+
+.introduction-content .non-header{
+    font-size: 1.5rem;
+    font-weight: 450;
+    font-style: italic;
+    color: aliceblue;
+
+}
+
+.introduction-image{
+    display: block;
+    margin-top: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    max-width: 80%;
+    max-height: 80%;
+
+    border: 5px solid rgb(255, 254, 254);
+}
+
+  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .introduction-content .header {
+        font-size: 2.5rem;
+    }
+    .introduction-content .non-header {
+        font-size: 1.3rem;
+    }
+}
+/*--------------------------Mission-----------------------*/
+.mission{
+    position: relative;
+}
+.mission .header{
+    position: relative;
+    font-size: 3.2rem;
+    color: var(--theme);
+}
+
+.mission .header::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(199, 199, 199);
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 0px;
+}
+
+.mission .card{
+    width: 20rem;
+}
+
+.mission .card-title{
+    font-size: 2rem;
+    color: rgb(69, 69, 69);
+}
+
+.mission .card-text{
+    color: #555555;
+}
+
+/*--------------------------About-us-----------------------*/
+
+.about-us{
+    position: relative;
+    background-color: #F8F8F8;
+}
+.about-us .header{
+    position: relative;
+    font-size: 3.2rem;
+    color: var(--theme);
+}
+
+.about-us .header::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(199, 199, 199);
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 0px;
+}
+
+.about-us .card{
+    width: 50rem;
+    background-color: #F8F8F8;
+}
+
+.about-us .card-text{
+    color: #555555;
+}
+
+/*--------------------------Program-----------------------*/
+
+.program{
+    position: relative;
+}
+.program .header{
+    position: relative;
+    font-size: 3.2rem;
+    color: var(--theme);
+}
+
+.program .header::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(199, 199, 199);
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 0px;
+}
+
+.program .card{
+    width: 50rem;
+}
+
+.program .card-text{
+    color: #555555;
+}
+
+.program .button a{
+    background-color: #555555;
+    border-color: #555555;
+}
+
+.program .button{
+    padding: 2%;
+}

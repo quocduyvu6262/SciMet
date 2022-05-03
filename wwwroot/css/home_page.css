@@ -11,7 +11,7 @@
     width: 100%;
     background-color: var(--theme);
     /* styling welcome statement */
-    padding: 2%;
+    padding: 3%;
 }
 
 .introduction-content{
@@ -163,8 +163,8 @@
 }
 
 .program .button a{
-    background-color: #555555;
-    border-color: #555555;
+    background-color: var(--theme);
+    border-color: var(--theme);
 }
 
 .program .button{

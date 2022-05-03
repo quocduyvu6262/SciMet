@@ -123,6 +123,7 @@ body {
 }
 
 /*--------Nav bar style-----------*/
+
 .navbar::after {
   content: "";
   position: absolute;
@@ -151,6 +152,9 @@ nav a{
   font-weight: bold;
 }
 
+.navbar-items{
+  padding-left: 0%;
+}
 
 .navbar-items a{
   color: white !important;
@@ -160,5 +164,23 @@ nav a{
 
 .nav-item{
   padding-left: 1.1rem;
+}
+
+.dropdown-menu{
+  background-color: var(--theme);
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-image:none !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: rgb(91, 91, 91);
+}
+
+.navbar-brand img{
+  width: 10%;
+  height: auto;
+}
+.navbar-brand {
+  width: 1%;
 }
 /* ---------introduction style------*/
