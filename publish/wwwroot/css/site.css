@@ -18,13 +18,8 @@ body {
   margin-bottom: 60px;
 }
 
-.header{
-  font-family: 'League Spartan', sans-serif;
-}
 
-.non-header{
-  font-family: Helvetica;
-}
+
 
 
 /*-----------------------------------------Customization------------------------------------------*/
@@ -34,7 +29,7 @@ body {
 .footer-dark {
   padding:50px 0;
   color:#f0f9ff;
-  background-color:#282d32;
+  background-color:var(--theme);
   margin-bottom: -10%;
 }
 
@@ -139,7 +134,7 @@ body {
 .navbar{
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: var(--theme);
+  background-color: var(--theme);  
 }
 
 

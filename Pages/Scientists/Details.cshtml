@@ -5,12 +5,12 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<div style="text-center"><h1 style = "padding: 3%;">Chi Tiết</h1></div>
 
-<div>
+<div style = "padding: 3%;">
     <h4>Scientist</h4>
     <hr />
-    <dl class="row">
+    <dl class="row"> 
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Scientist.Name)
         </dt>
@@ -31,7 +31,6 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-page="./Edit" asp-route-id="@Model.Scientist.ID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+<div style = "padding: 3%;">
+    <a asp-page="./Index">Quay trở về</a>
 </div>

@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/duyvuquoc/Documents/SciMet
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/duyvuquoc/Documents/SciMet/Pages/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/duyvuquoc/Documents/SciMet/Pages/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/duyvuquoc/Documents/SciMet/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,8 +31,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/duyvuquoc/Documents/SciMet/Pages/Join/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSm9pbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/duyvuquoc/Documents/SciMet/Pages/Members/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWVtYmVycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/duyvuquoc/Documents/SciMet/Pages/Mission/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWlzc2lvbi9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/duyvuquoc/Documents/SciMet/Pages/Privacy.cshtml]
@@ -57,6 +73,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/duyvuquoc/Documents/SciMet/Pages/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGVudHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/duyvuquoc/Documents/SciMet/Pages/Vision/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlzaW9uL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/duyvuquoc/Documents/SciMet/Pages/_ViewImports.cshtml]

@@ -16298,6 +16298,11 @@
   "RootNamespace": "SciMet",
   "Documents": [
     {
+      "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/About/Index.cshtml",
+      "TargetPath": "Pages\\About\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -16305,6 +16310,11 @@
     {
       "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Mission/Index.cshtml",
+      "TargetPath": "Pages\\Mission\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16348,6 +16358,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Vision/Index.cshtml",
+      "TargetPath": "Pages\\Vision\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Contact/Index.cshtml",
+      "TargetPath": "Pages\\Contact\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16360,6 +16380,11 @@
     {
       "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/duyvuquoc/Documents/SciMet/Pages/Join/Index.cshtml",
+      "TargetPath": "Pages\\Join\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

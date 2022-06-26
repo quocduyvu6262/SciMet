@@ -1,9 +1,15 @@
 .row {
     width: 100%;
+    scroll-behavior: smooth;
 }
 :root{
     /* --theme: #264661 */
     --theme: #18629A
+}
+.header{
+    position: relative;
+    font-size: 3.2rem;
+    color: var(--theme);
 }
 /*---------------Style Introduction-------------*/
 .introduction{
@@ -99,18 +105,18 @@
 }
 
 .mission .card-text{
-    color: #555555;
+    color: #7a7a7a;
 }
 
 /*--------------------------About-us-----------------------*/
 
 .about-us{
     position: relative;
-    background-color: #F8F8F8;
+    padding: 2%;
 }
 .about-us .header{
     position: relative;
-    font-size: 3.2rem;
+    font-size: 3.3rem;
     color: var(--theme);
 }
 
@@ -125,18 +131,37 @@
 }
 
 .about-us .card{
-    width: 50rem;
-    background-color: #F8F8F8;
+    width: 45rem;   
+    margin-left: 8%;
 }
 
 .about-us .card-text{
-    color: #555555;
+    color: #404040;
+}
+
+.about-us .non-header{
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.about-us .button{
+    background-color: var(--theme);
+    border-color: var(--theme);
+    margin-top: 10%;
+}
+
+.about-us .button{
+    padding: 3%;
+    border-radius: 0%;
+    margin-left: -80%;
 }
 
 /*--------------------------Program-----------------------*/
 
 .program{
     position: relative;
+    background-color: #F8F8F8;
+    padding: 2%;
 }
 .program .header{
     position: relative;
@@ -156,17 +181,86 @@
 
 .program .card{
     width: 50rem;
+    background-color: #f8f8f8;
+}
+
+.program .card-title{
+    font-size: 2rem;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    color: var(--theme);
+    font-weight: 400;
 }
 
 .program .card-text{
-    color: #555555;
+    color: #404040;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .program .button a{
     background-color: var(--theme);
     border-color: var(--theme);
+    font-size: 0.9rem;
 }
 
 .program .button{
-    padding: 2%;
+    padding: 4%;
+    margin-top: -3%;
+    border-radius: 0% !important;
+}
+
+.program .card-bottom{
+    width:35rem;
+}
+
+.program #image1{
+    width: 140%;
+    object-fit: cover;
+}
+
+.program #image2{
+    height: 335px;
+    object-fit: cover;
+}
+
+/*--------------------------Subsciption-----------------------*/
+.subscription{
+    position: relative;
+    padding: 5%;
+    margin-top: -3%;
+}
+
+.subscription .header{
+    font-size: 3rem;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    color: var(--theme);
+    font-weight: 700;
+}
+
+.subscription .non-header{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #5c5c5c;
+}
+.subscription .box{
+    width: 50%;
+    height: 50px;
+    margin-top: 0.5%;
+}
+.subscription .button{
+    border-radius: 0% !important;
+    height: 48px;
+    width: 100px;
+    background-color: var(--theme);
+    border-color: var(--theme);
+    border: none;
+    margin-left: 2%;
+    color: white;
+    margin-top: 0.5%;
+}
+
+.subscription .row{
+    padding: 1%;
 }

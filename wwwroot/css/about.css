@@ -1,0 +1,177 @@
+
+.non-header{
+    color: #404040;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+/* ------------------------------------About------------------------------------- */
+.about{
+    position: relative;
+    padding: 2%;
+}
+
+
+.about .header::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(199, 199, 199);
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 0px;
+}
+
+.about .card{
+    padding: 4%;
+    border-left: none;
+}
+
+.about .card-title{
+    font-size: 2.3rem;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    color: var(--theme);
+    font-weight: 200;
+}
+.about .rightmost{
+    border-right: none;
+}
+.about .card{
+    border-top: none;
+    border-bottom: none;
+}
+
+.about .card-text{
+    color: #404040;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 10%;
+}
+.about .card a{
+    background-color: var(--theme);
+    border-color: var(--theme);
+    font-size: 0.9rem;
+}
+
+.about .btn{
+    padding: 5%;
+    border-radius: 0% !important;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 800px) {
+    .about .card{
+        border-right: none;
+    }
+}
+
+/* ------------------------------------Questions------------------------------------- */
+/* .questions{
+    position: relative;
+    background-color: #F8F8F8;
+    padding: 2%;
+}
+
+.questions .header::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(199, 199, 199);
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 0px;
+}
+
+.questions .accordion{
+    position:relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -1%;
+}
+
+.questions .accordion-item, .questions .accordion-btn{
+    background-color: #F8F8F8;
+}
+
+.questions .accordion-btn{
+    border: none;
+    padding: 2%;
+} */
+
+
+.text-secondary {
+    color: #42687e;
+  }
+  
+ #accordion h2{
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 1%;
+    color: #2c2c2c;
+  }
+  #accordion p{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1%;
+    color: #606060;
+  }
+
+  h2 {
+    color: #333;
+  }
+  
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .h-100 {
+    height: 100%;
+  }
+  
+  a.text-secondary:focus,
+  a.text-secondary {
+    text-decoration: none;
+    color: #22343e;
+  }
+
+
+  
+  #accordion .fa-plus {
+    transition: -webkit-transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  }
+  
+  #accordion a[aria-expanded=true] .fa-plus {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .main-container .header::after{
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(199, 199, 199);
+    left: 45%;
+    bottom: 0;
+    width: 10%;
+    height: 0px;
+  }
+
+  #accordion{
+      margin-top: -5%;
+      width: 70%;
+      margin-left: 15%;
+  }
+  #accordion p{
+    width: 90%;
+}
+@media only screen and (max-width: 1300px) {
+    .container i{
+        display: none;
+    }
+}

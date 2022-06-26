@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="~/SciMet.styles.css" asp-append-version="true" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@650&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     
 </head>
 <body>
@@ -29,26 +32,29 @@
                 </div>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between navbar-items" id="navbarNavDarkDropdown">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="active nav-item">
+                        @* <li class="active nav-item">
                             <a class="nav-link text-dark" href="/Index#mission-id">SỨ MỆNH & TẦM NHÌN</a>
-                        </li>
+                        </li> *@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Members/Index">THÀNH VIÊN</a>
+                            <a class="nav-link text-dark" href="/About/Index">VỀ CHÚNG TÔI</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="/Join/Index">
                                 THAM GIA
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                            @* <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item btn disabled" href="/Students/Index">Dành Cho Học Sinh</a></li>
                                 <li><a class="dropdown-item" href="https://docs.google.com/forms/d/1LS0q-EgP8zn9mclGrmyNf35g4cNFIWt3FBay5UCe2Sw/prefill" target="_blank">Dành Cho Nhà Khoa Học</a></li>
-                            </ul>
+                            </ul> *@
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="">TÀI LIỆU</a>
+                            <a class="nav-link text-dark" href="#">TÀI LIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Scientists/Index">NHÀ KHOA HỌC</a>
                         </li>
                         @* <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Scientists/Index">NHÀ KHOA HỌC</a>
+                            <a class="nav-link text-dark" href="/Contact/Index">LIÊN HỆ</a>
                         </li> *@
                     </ul>
                 </div>
@@ -89,9 +95,6 @@
             </div>
         </footer>
     </div>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>

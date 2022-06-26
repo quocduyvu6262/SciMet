@@ -26,15 +26,15 @@ namespace SciMet.Models
                     return;   // DB has been seeded
                 }
 
-                context.Scientist.AddRange(
-                    new Scientist
-                    {
-                        ID = 1,
-                        Name = "Glenn Tesler",
-                        Title = "Professor",
-                        Research = "Graph Theory"
-                    }
-                );
+                // context.Scientist.AddRange(
+                //     new Scientist
+                //     {
+                //         ID = 1,
+                //         Name = "Glenn Tesler",
+                //         Title = "Professor",
+                //         Research = "Graph Theory"
+                //     }
+                // );
                 context.SaveChanges();
             }
         }
