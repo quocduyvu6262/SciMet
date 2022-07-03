@@ -61,6 +61,11 @@
     height: auto;
     padding: 10%;
 }
+.logo{
+    width: 110%;
+    padding-right: 9%;
+    padding-top: 8%;
+}
 .needwhite{
     background-color: white;
     border-radius: 100%;

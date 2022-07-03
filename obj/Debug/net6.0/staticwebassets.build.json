@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t75KCTeVU62P+UROpBQXDNL5CxJlCaPU68x+i/RCYWE=",
+  "Hash": "dZDwkgNYPwp+YQNJML5Hh9oaQw5S4Tl1rHadCM3FiCM=",
   "Source": "SciMet",
   "BasePath": "_content/SciMet",
   "Mode": "Default",
@@ -408,6 +408,23 @@
       "OriginalItemSpec": "wwwroot/img/giang.png"
     },
     {
+      "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/img/homepageimg.png",
+      "SourceId": "SciMet",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duyvuquoc/Documents/SciMet/wwwroot/",
+      "BasePath": "_content/SciMet",
+      "RelativePath": "img/homepageimg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/homepageimg.png"
+    },
+    {
       "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/img/join1.jpg",
       "SourceId": "SciMet",
       "SourceType": "Discovered",
@@ -474,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/LOGO.png"
+    },
+    {
+      "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/img/main-bg.png",
+      "SourceId": "SciMet",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duyvuquoc/Documents/SciMet/wwwroot/",
+      "BasePath": "_content/SciMet",
+      "RelativePath": "img/main-bg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/main-bg.png"
     },
     {
       "Identity": "/Users/duyvuquoc/Documents/SciMet/wwwroot/img/mission1.png",
