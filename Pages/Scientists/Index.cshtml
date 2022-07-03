@@ -14,10 +14,10 @@
         <p>
         @* <a asp-page="Create">Create New</a> *@
         </p>
-        <form class="row text">
-            <p class="col-lg col-md-12 input1"> Tên: <input type="text" asp-for="SearchName" /> </p>
-            <p class="col-lg col-md-12 input2"> Chủ đề: <input type="text" asp-for="SearchResearch" /> </p>
-            <p class="col-7 input3"> <input type="submit" value="Tìm kiếm" /></p>
+        <form class="filter">
+            <p> Tên: <input type="text" asp-for="SearchName" /> </p>
+            <p> Chủ đề: <input type="text" asp-for="SearchResearch" /> </p>
+            <p> <input type="submit" value="Tìm kiếm" /></p>
         </form>
         <table class="table">
             <thead>

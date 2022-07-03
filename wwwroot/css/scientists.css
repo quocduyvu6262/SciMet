@@ -26,6 +26,17 @@
     height: 20vh;
 }
 
+.filter{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;              
+}
+
+.filter > p{
+    padding: 2%;
+}
+
+
 @media only screen and (max-width: 600px) {
     .scientists .header{
         font-size:2rem;
